@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-C:\Users\Gianm\Dokumente\Programming\Unity\formula-manager\Unity
-=======
 E:\Games\formula-manager\Unity
->>>>>>> main
