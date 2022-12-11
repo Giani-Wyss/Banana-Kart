@@ -16,6 +16,6 @@ public class MainMenu : MonoBehaviour
     }
     public void Instructions()
     {
-        Application.OpenURL("https://gianmarco-duarte.gitlab.io/formula-manager/");
+        Application.OpenURL("https://bananakart.gianmarco-wyss.bbzwinf.ch/How%20To%20Play/");
     }
 }
