@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Banana Kart Manual</title>
+<title>Banana Kart Manual - Help</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -23,22 +23,22 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-    <a class="w3-bar-item w3-theme-l1">Banana Kart Manual</a>
+    <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+      <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+      <a class="w3-bar-item w3-theme-l1">Banana Kart Manual</a>
+    </div>
   </div>
-</div>
 
 <!-- Sidebar -->
 <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
-    <i class="fa fa-remove"></i>
-  </a>
-  <h4 class="w3-bar-item"><b>Menu</b></h4>
-  <a class="w3-bar-item w3-button w3-hover-black w3-theme-l1" href="/">Home</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="How To Play/">Help</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="Controls/">Controls</a>
-</nav>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <h4 class="w3-bar-item"><b>Menu</b></h4>
+    <a class="w3-bar-item w3-button w3-hover-black" href="../">Home</a>
+    <a class="w3-bar-item w3-button w3-hover-black w3-theme-l1" href="/How To Play/">Help</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="../Controls/">Controls</a>
+  </nav>
 
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
@@ -48,8 +48,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-yellow">What is Banana Kart</h1>
-      <p>Banana Kart is an arcade racing game for family and banana fun. You can race your friends in your favorite banana motor vehicles around crazy and wacky and funny and silly tracks.</p>
+      <h1 class="w3-text-yellow">Main Menu</h1>
+      <p>To start the game, you have to press the "Play" button. You can also press the "Help" button which directs you to this website. The "Quit" button will close the game.</p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-yellow">Track Selection</h1>
+      <p>After pressing the "Play" button, you can choose your track for the race. The button "Back" brings you back to the Main Menu. After selecting the track, the race will start. If you down know how to race, you will find help <a href="../Controls/">here</a></p>
     </div>
   </div>
 </div>
