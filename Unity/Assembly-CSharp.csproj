@@ -56,12 +56,19 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\RaceFinished.cs" />
     <Compile Include="Assets\Cars\vehicle\engineAudio.cs" />
     <Compile Include="Assets\RTG 1.3\Big Screen\Source\Camera_BigScreens.cs" />
     <Compile Include="Assets\RTG 1.3\Scripts\Track_Generator.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\LapCounter2.cs" />
     <Compile Include="Assets\RTG 1.3\MiniMap\Content\MiniMap.cs" />
+    <Compile Include="Assets\Scripts\CheckpointSys.cs" />
+    <Compile Include="Assets\Scripts\Countdown.cs" />
     <Compile Include="Assets\Cars\vehicle\controller.cs" />
     <Compile Include="Assets\Cars\vehicle\inputManager.cs" />
+    <Compile Include="Assets\Scripts\CheckpointSys2.cs" />
+    <Compile Include="Assets\Scripts\LapCounter1.cs" />
     <Compile Include="Assets\RTG 1.3\Scripts\Mesh_CombineUtility.cs" />
     <Compile Include="Assets\Cars\vehicle\wheelsManager.cs" />
     <Compile Include="Assets\Scripts\CarController.cs" />
@@ -70,12 +77,34 @@
     <Compile Include="Assets\RTG 1.3\Scripts\Track_Config.cs" />
     <Compile Include="Assets\RTG 1.3\Scripts\FreeflightCamera.cs" />
     <Compile Include="Assets\RTG 1.3\WayTool\RTGWaypointsContainer.cs" />
+    <Compile Include="Assets\Scripts\TrackSelector.cs" />
     <Compile Include="Assets\Cars\vehicle\cameraController.cs" />
     <Compile Include="Assets\Samples\Input System\1.4.2\Simple Multiplayer\SimpleMultiplayerPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\RTG 1.3\Shaders\Splat.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\RTG 1.3\Shaders\DoubleSided.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -323,6 +352,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="clipper_library">
+      <HintPath>Library\PackageCache\com.unity.cinemachine@2.8.6\Runtime\ThirdParty\clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
@@ -759,8 +791,14 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>

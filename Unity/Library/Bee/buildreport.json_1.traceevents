@@ -1,0 +1,582 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1670782026762623, "dur": 4251882, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670782026762652, "dur": 15195, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670782026777848, "dur": 48306, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670782026826156, "dur": 207936, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670782027034095, "dur": 3965989, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670782031000086, "dur": 14419, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670782031014761, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1670782026934760, "dur": 82161, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670782026935477, "dur": 30678, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670782027000791, "dur": 5495, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670782027006289, "dur": 10627, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670782027006894, "dur": 6818, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670782027020229, "dur": 900, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670782027019644, "dur": 1499, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670782031014812, "dur": 238, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1670782027090429, "dur":1860, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782027092296, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1670782027092345, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1670782027092361, "dur":402, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1670782027092778, "dur":499, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782027093278, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960134, "dur":217, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960351, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960381, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960385, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960397, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960399, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960429, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960432, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960441, "dur":11, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960452, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960461, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960463, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960469, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960471, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960476, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960478, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960483, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960485, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960490, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960492, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960497, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960499, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960504, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960506, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960511, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960514, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960519, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960521, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960526, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960528, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960533, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960535, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960540, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960555, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030960571, "dur":10416, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1670782027093471, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670782027093472, "dur":4071, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670782027097555, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670782027097555, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670782027097583, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670782027097587, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670782027101083, "dur":10257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670782027111342, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1670782027111409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670782027114387, "dur":11918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1670782027126379, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782027126450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670782027126454, "dur":1102151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028228690, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028228707, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670782028228711, "dur":56924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028285644, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028285653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670782028285657, "dur":33877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028319546, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028319589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670782028319594, "dur":38224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028357827, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028357839, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670782028357876, "dur":52827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028410715, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028410757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670782028410763, "dur":78296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028489078, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028489271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670782028489277, "dur":107296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028596592, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028596646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670782028596653, "dur":280486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670782028877181, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1670782028877205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670782028877214, "dur":1044908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1670782029922162, "dur":1037972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670782027093495, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670782027093495, "dur":4066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670782027097561, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1670782027097747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670782028172685, "dur":77885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1670782028250670, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670782028250689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670782028250696, "dur":58535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670782028309245, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670782028309289, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670782028309294, "dur":44400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670782028353707, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670782028353720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670782028353724, "dur":56967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670782028410703, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670782028410750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670782028410755, "dur":86081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670782028496848, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670782028497104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670782028497112, "dur":99465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670782028596591, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670782028596644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670782028596649, "dur":178930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670782028775598, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670782028775617, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670782028775669, "dur":717003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670782029492688, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1670782029492701, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670782029492708, "dur":668078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1670782030160800, "dur":799337, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782027093526, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782027093527, "dur":4022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782027097552, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1670782027097727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782027126309, "dur":139387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1670782027265800, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782027265849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782027368541, "dur":466634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782027835199, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782027835225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782027835234, "dur":255484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028090733, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028090754, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782028090761, "dur":129345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028220119, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028220605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782028220610, "dur":59608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028280230, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028280245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782028280249, "dur":29028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028309289, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028309306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782028309311, "dur":44395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028353726, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028353740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782028353745, "dur":56977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028410738, "dur":813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028411554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782028411559, "dur":90388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028501962, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028501979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782028501986, "dur":146974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028648977, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782028648998, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782028649004, "dur":375927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670782029024945, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1670782029024961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670782029024966, "dur":1135825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1670782030160802, "dur":799342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670782027093546, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670782027093547, "dur":4012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670782027097559, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1670782027097731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670782028036329, "dur":178365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1670782028214785, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028214808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670782028214814, "dur":48016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028262847, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028262868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670782028262875, "dur":46332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028309220, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028309270, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670782028309275, "dur":42362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028351648, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028351662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670782028351669, "dur":39608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028391294, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028391313, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670782028391319, "dur":40580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028431914, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028432058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670782028432065, "dur":64775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028496850, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028497024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670782028497031, "dur":99531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028596574, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028596637, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670782028596643, "dur":232096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670782028828757, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670782028828770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670782028828776, "dur":1844467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670782030673266, "dur":286873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670782027093577, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670782027093577, "dur":3971, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670782027097552, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1670782027097813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670782028537503, "dur":176466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1670782028714117, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670782028714136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670782028714142, "dur":227591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670782028941748, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1670782028941765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670782028941770, "dur":732008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1670782029673794, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1670782029673976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670782029673982, "dur":999257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1670782030673255, "dur":286897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670782027093594, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670782027093594, "dur":3953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670782027097552, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1670782027097756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670782028262785, "dur":41305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1670782028304198, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670782028304221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670782028304227, "dur":29398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670782028333634, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670782028333646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670782028333650, "dur":30664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670782028364325, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670782028364340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670782028364345, "dur":46373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670782028410732, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670782028411314, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670782028411318, "dur":85588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670782028496924, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670782028496948, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670782028496953, "dur":135795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670782028632764, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670782028632781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670782028632789, "dur":195943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670782028828755, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1670782028828769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670782028828785, "dur":350727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1670782029179537, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1670782029179557, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670782029179564, "dur":742610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1670782029922189, "dur":1037954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782027093624, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782027093624, "dur":3927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782027097556, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1670782027097725, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782027114431, "dur":11861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1670782027126356, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782027126417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782027126429, "dur":819150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782027945704, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782027945727, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782027945732, "dur":253372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028199124, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028199145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782028199154, "dur":63686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028262856, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028262916, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782028262922, "dur":46319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028309254, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028309268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782028309273, "dur":42368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028351651, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028351669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782028351677, "dur":39590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028391283, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028391304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782028391309, "dur":40595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028431922, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028432122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782028432129, "dur":64773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028496921, "dur":1636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028498559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782028498563, "dur":215418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028714007, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028714034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782028714041, "dur":227681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670782028941737, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1670782028941756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670782028941761, "dur":980340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1670782029922118, "dur":1038023, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670782027093654, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670782027093654, "dur":3903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670782027097557, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1670782027097804, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670782028290054, "dur":26569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1670782028316693, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670782028316708, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670782028316712, "dur":41081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670782028357807, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670782028357822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670782028357827, "dur":52901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670782028410746, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670782028410759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670782028410764, "dur":78300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670782028489083, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670782028489361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670782028489368, "dur":107191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670782028596573, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670782028596633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670782028596639, "dur":178954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670782028775610, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670782028775674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670782028775680, "dur":249206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670782029024898, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670782029024934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670782029024942, "dur":1215285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670782030240241, "dur":719895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670782027093671, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670782027093671, "dur":3882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670782027097554, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1670782027097730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670782027568413, "dur":324434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1670782027892946, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782027892967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670782027892973, "dur":197787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028090775, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028090790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670782028090795, "dur":129281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028220088, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028220105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670782028220111, "dur":60114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028280236, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028280249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670782028280254, "dur":28982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028309246, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028309291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670782028309296, "dur":48531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028357837, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028357880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670782028357886, "dur":115481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028473384, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028473567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670782028473573, "dur":49678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028523263, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028523276, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670782028523281, "dur":190694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028713999, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028714019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670782028714029, "dur":227698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670782028941743, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1670782028941757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670782028941762, "dur":2018328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1670782030960103, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1670782030960105, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782027093703, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782027093704, "dur":3848, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782027097552, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1670782027097664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782027109025, "dur":5902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1670782027115006, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1670782027115088, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782027115093, "dur":27981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1670782027143152, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car.exe" }}
+,{ "pid":12345, "tid":10, "ts":1670782027143171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782027143175, "dur":376288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car.exe" }}
+,{ "pid":12345, "tid":10, "ts":1670782027519478, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782027519495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782027519510, "dur":373379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782027892910, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782027892931, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782027892936, "dur":197840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028090790, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028090805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782028090810, "dur":129313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028220142, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028220208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782028220213, "dur":59998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028280222, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028280235, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782028280241, "dur":28972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028309226, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028309277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782028309282, "dur":42364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028351661, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028351679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782028351686, "dur":38089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028389785, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028389796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782028389802, "dur":83559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028473378, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028473562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782028473570, "dur":64000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028537592, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028537612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782028537619, "dur":237966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028775601, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782028775671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782028775679, "dur":249256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670782029024952, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1670782029024966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670782029024972, "dur":897134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1670782029922155, "dur":1037998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782027093725, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782027093725, "dur":3830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782027097558, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1670782027097663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782027110264, "dur":4987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1670782027115332, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782027115417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782027117767, "dur":93456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782027211324, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1670782027211416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782027308412, "dur":701707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1670782028010211, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028010231, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782028010237, "dur":204438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028214689, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028214701, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782028214705, "dur":48129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028262849, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028262864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782028262871, "dur":46346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028309230, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028309282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782028309287, "dur":44414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028353715, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028353731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782028353735, "dur":56974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028410723, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028410937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782028410944, "dur":78268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028489235, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028489408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782028489414, "dur":107215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028596647, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028596663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782028596673, "dur":345045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670782028941734, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1670782028941754, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670782028941761, "dur":1802588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1670782030744363, "dur":215771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670782027093743, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670782027093743, "dur":3815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670782027097558, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1670782027097809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670782028365500, "dur":59196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1670782028424784, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670782028425063, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670782028425067, "dur":64052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670782028489147, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670782028489353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670782028489359, "dur":107224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670782028596601, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670782028596625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670782028596632, "dur":428244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670782029024897, "dur":1800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1670782029026699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670782029026703, "dur":895411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1670782029922133, "dur":1038016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782027093771, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782027093772, "dur":3788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782027097560, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1670782027097728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782027229643, "dur":289814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1670782027519576, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782027519593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782027519599, "dur":373242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782027892863, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782027892889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782027892901, "dur":197864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028090780, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028090796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782028090802, "dur":129313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028220127, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028220140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782028220210, "dur":60019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028280242, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028280255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782028280260, "dur":28965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028309239, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028309285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782028309290, "dur":48532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028357833, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028357877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782028357882, "dur":52830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028410721, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028410760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782028410765, "dur":78455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028489239, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028489423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782028489429, "dur":107126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028596571, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028596629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782028596634, "dur":178965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028775616, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782028776072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782028776076, "dur":365717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670782029141808, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1670782029141821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670782029141830, "dur":780258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1670782029922106, "dur":1038023, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670782027093789, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670782027093790, "dur":3766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670782027097556, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1670782027097804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670782028320830, "dur":43473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1670782028364431, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670782028364461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670782028364467, "dur":46230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670782028410708, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670782028410754, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670782028410758, "dur":78423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670782028489201, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670782028489503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670782028489510, "dur":107058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670782028596580, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670782028596640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670782028596646, "dur":232052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670782028828713, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670782028828897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670782028828902, "dur":312896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670782029141816, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1670782029141837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670782029141843, "dur":780252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1670782029922111, "dur":1038037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670782027093807, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670782027093807, "dur":3752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670782027097560, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1670782027097811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670782028429081, "dur":67774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1670782028496995, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670782028497019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670782028497025, "dur":278546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670782028775596, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670782028775616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670782028775671, "dur":249210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670782029024896, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1670782029025080, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670782029025084, "dur":897008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1670782029922110, "dur":1038020, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782027093832, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782027093832, "dur":3724, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782027097558, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1670782027097682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782027109063, "dur":5597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1670782027114724, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":16, "ts":1670782027114818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782027114826, "dur":19075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":16, "ts":1670782027133969, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1670782027134050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782027134055, "dur":385416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1670782027519596, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782027519623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782027519628, "dur":373266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782027892917, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782027892943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782027892950, "dur":197821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028090787, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028090800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782028090805, "dur":129276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028220092, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028220103, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782028220106, "dur":83977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028304105, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028304125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782028304132, "dur":29498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028333643, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028333654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782028333668, "dur":34738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028368416, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028368469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782028368475, "dur":63386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028431888, "dur":773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028432665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782028432671, "dur":104928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028537629, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028537660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782028537667, "dur":291056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670782028828738, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":16, "ts":1670782028828888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670782028876967, "dur":796816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Schule/Sursee/3. Semester/IPT-4.1 (LAS)/IPT Projekt/Game/car_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":16, "ts":1670782029673797, "dur":1286335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670782030978900, "dur":1495, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1670782031015093, "dur": 818, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670782031014750, "dur": 1180, "ph": "X", "name": "Write chrome-trace events", "args": {} },

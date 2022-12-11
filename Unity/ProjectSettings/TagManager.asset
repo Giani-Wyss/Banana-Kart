@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Street
+  - Checkpoint
+  - Camera1
   layers:
   - Default
   - TransparentFX

@@ -14,7 +14,7 @@ public class controller : MonoBehaviour{
     [SerializeField]private driveType drive;
 
     //scripts ->
-    private engineAudio audio;
+    private new engineAudio audio;
     private inputManager IM;
     private wheelsManager wheelsmanager;
 
