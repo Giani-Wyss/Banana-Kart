@@ -4,7 +4,7 @@
 
 BananaKart was a School Project made by Giani-Wyss and duartolass with Unity.
 
-- Unity Personal Editon v2021.3.9f1- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
+- Unity Personal Editon v2021.3.9f1
 - Technologies used:  
 - Visual Studio 2022 Enterprise Edition
 - Visual Studio Code
