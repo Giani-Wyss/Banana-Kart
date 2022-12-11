@@ -13,4 +13,6 @@ BananaKart was a School Project made by Giani-Wyss and duartolass with Unity.
 
 ## Download
 
-You can download the Game [here](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+You can download the Game [here](https://gitlab.com/gianmarco-duarte/formula-manager/-/tree/main/Game)
+
+After downloading the folder, open it and double click on the car.exe file
